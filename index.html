@@ -20,15 +20,19 @@
 <script>
 	var map;
 	var parks = [
-		{"park":"Yellowstone","coords":[44.4280,-110.5885]},
-		{"park":"Glacier","coords":[48.7596, -113.7870]},
-        {"park":"Gardaland","coords":[45.455932, 10.713839]}
+		{"park":"Port Aventura","coords":[41.087883, 1.157246]},
+		{"park":"Fuji-Q Highland","coords":[35.487017, 138.780551]},
+        {"park":"Gardaland","coords":[45.455932, 10.713839]},
+        {"park":"Disneyland","coords":[48.867367, 2.783816]},
+        {"park":"Pleasure Beach","coords":[53.792457, -3.055303]},
+        {"park":"Legoland","coords":[55.735553, 9.126805]},
+        {"park":"Paris","coords":[48.856329, 2.351519]}
 		];
 
 	function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: new google.maps.LatLng(44, -110),
+			zoom: 3,
+			center: new google.maps.LatLng(48.856781, 2.351863),
 			mapTypeId: 'terrain'
 		});
 
